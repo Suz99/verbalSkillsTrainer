@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-voice',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],  // Add this to use directives like *ngIf
   templateUrl: './voice.component.html',
   styleUrl: './voice.component.scss'
 })

@@ -1,1 +1,2 @@
-<p>voice works!</p>
+<button (click)="startListening()">🎤 Start Speaking</button>
+<p *ngIf="transcript">You said: {{ transcript }}</p>
