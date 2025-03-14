@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6200ea;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
