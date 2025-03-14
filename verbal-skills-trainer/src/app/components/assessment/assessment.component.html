@@ -1,1 +1,3 @@
-<p>assessment works!</p>
+<textarea [(ngModel)]="presentationText" placeholder="Enter your presentation text..."></textarea>
+<button (click)="assessPresentation()">Assess</button>
+<p *ngIf="feedback">Feedback: {{ feedback }}</p>
