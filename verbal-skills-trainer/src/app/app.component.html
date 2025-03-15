@@ -1,12 +1,13 @@
-<header>
-  <h1>Verbal Skills Trainer</h1>
+<mat-toolbar color="primary">
+  <span class="title">Verbal Skills Trainer</span>
+  <span class="spacer"></span>
   <nav>
-    <a routerLink="/chat" routerLinkActive="active">Chat</a>
-    <a routerLink="/voice" routerLinkActive="active">Voice</a>
-    <a routerLink="/assessment" routerLinkActive="active">Assessment</a>
+    <a mat-button routerLink="/chat">Chat</a>
+    <a mat-button routerLink="/voice">Voice</a>
+    <a mat-button routerLink="/assessment">Assessment</a>
   </nav>
-</header>
+</mat-toolbar>
 
-<main>
+<div class="container">
   <router-outlet></router-outlet>
-</main>
+</div>

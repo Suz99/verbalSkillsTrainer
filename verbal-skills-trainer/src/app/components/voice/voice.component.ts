@@ -1,10 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-voice',
   standalone: true,
-  imports: [CommonModule],  // Add this to use directives like *ngIf
+  imports: [CommonModule, 
+    MatCardModule,
+    MatButtonModule
+  ],  // Add this to use directives like *ngIf
   templateUrl: './voice.component.html',
   styleUrl: './voice.component.scss'
 })

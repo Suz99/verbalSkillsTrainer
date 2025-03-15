@@ -1,2 +1,7 @@
-<button (click)="startListening()">🎤 Start Speaking</button>
-<p *ngIf="transcript">You said: {{ transcript }}</p>
+<mat-card>
+    <mat-card-title>Voice Interaction</mat-card-title>
+    <mat-card-content>
+      <button mat-raised-button color="accent" (click)="startListening()">🎤 Start Speaking</button>
+      <p *ngIf="transcript">You said: {{ transcript }}</p>
+    </mat-card-content>
+</mat-card>

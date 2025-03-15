@@ -1,6 +1,24 @@
-.chat-container {
+mat-card {
     max-width: 600px;
     margin: auto;
   }
-  .user { text-align: right; color: blue; }
-  .ai { text-align: left; color: green; }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .chat-history {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .user {
+    text-align: right;
+    color: blue;
+  }
+  
+  .ai {
+    text-align: left;
+    color: green;
+  }
